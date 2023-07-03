@@ -2,7 +2,7 @@
 
 const FormInputs = (props) => {
     return <p>
-        <label >Current Savings ($)</label>
+        <label >{props.label} </label>
         <input type="number" id="current-savings" onChange={props.onChangeHandler} />
     </p>
 }

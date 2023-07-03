@@ -7,11 +7,11 @@ const Table = (props) =>{
   //  content= <table className="result">
   //  <thead>
   //    <tr>
-  //      <th>Year</th>
-  //      <th>Total Savings</th>
-  //      <th>Interest (Year)</th>
-  //      <th>Total Interest</th>
-  //      <th>Invested Capital</th>
+  //      <th>Rok</th>
+  //      <th>Łączne oszczędności</th>
+  //      <th>Wkład (rocznie)</th>
+  //      <th>Łączny wkład</th>
+  //      <th>Zainwestowany kapitał</th>
   //    </tr>
   //  </thead>
   //  <tbody>

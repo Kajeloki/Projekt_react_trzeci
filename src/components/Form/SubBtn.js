@@ -5,7 +5,7 @@ return <p className="actions">
   Reset
 </button>
 <button type="submit" className="button" onClick={props.BtnHandler}>
-  Calculate
+  Oblicz
 </button>
 </p>
 }

@@ -54,12 +54,12 @@ const Form = (props) => {
 
   return <form className="form">
     <div className="input-group">
-      <FormInputs onChangeHandler={currentSavingsChangeHandler} />
-      <FormInputs onChangeHandler={yearlyContributionChangeHandler} />
+      <FormInputs label='Aktualne oszczędnośći (PLN)' onChangeHandler={currentSavingsChangeHandler} />
+      <FormInputs label='Roczny wkład (PLN)' onChangeHandler={yearlyContributionChangeHandler} />
     </div>
     <div className="input-group">
-      <FormInputs onChangeHandler={expectedReturnChangeHandler} />
-      <FormInputs onChangeHandler={durationChangeHandler} />
+      <FormInputs label='Szacowany zwrot (%)' onChangeHandler={expectedReturnChangeHandler} />
+      <FormInputs label='Okres (lat)' onChangeHandler={durationChangeHandler} />
     </div>
     <SubBtn BtnHandler={calculateHandler} />
   </form>
