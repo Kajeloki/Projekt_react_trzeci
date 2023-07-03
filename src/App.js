@@ -5,13 +5,18 @@ import Header from './components/Header';
 import React, {useState} from 'react';
 
 function App() {
-  const table=[];
-  const [enteredData, setEnteredData]=useState(table);
+  
+  const table='';
+  const [enteredData, setEnteredData]=useState('');
   const onAddDataHandler = newData =>{
-    setEnteredData(prevEnteredData =>
-    {
-      return [newData,...enteredData];
-    });
+    
+    // setEnteredData(prevEnteredData =>
+    // {
+    //   return [newData,...enteredData];
+    // });
+    setEnteredData(newData);
+    console.log(newData);
+    //console.log(enteredData[0]);
   };
 
 
