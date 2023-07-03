@@ -46,7 +46,7 @@ const Form = (props) => {
       
       yearlyData.push({
         // feel free to change the shape of the data pushed to the array!
-        key: Math.random(),
+        key: Math.random().toString(),
         year: i + 1,
         yearlyInterest: yearlyInterest,
         savingsEndOfYear: currentSavings,
@@ -63,7 +63,7 @@ const Form = (props) => {
 
   return <form className="form">
     <div className="input-group">
-      <FormInputs label='Aktualne oszczędnośći (PLN)' onChangeHandler={currentSavingsChangeHandler} />
+      <FormInputs label='Aktualne oszczędności (PLN)' onChangeHandler={currentSavingsChangeHandler} />
       <FormInputs label='Roczne oszczędności (PLN)' onChangeHandler={yearlyContributionChangeHandler} />
     </div>
     <div className="input-group">
