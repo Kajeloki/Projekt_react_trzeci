@@ -45,7 +45,7 @@
 </details>
 
 ## Application view
-Main page with example of calculated investment
+Main page with example of calculated investment</br>
 <img src="https://github.com/user-attachments/assets/da26eb1d-64ee-447f-8c21-fc7bde4f8462">
 
 ## Sources
