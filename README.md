@@ -46,8 +46,13 @@
 
 ## Application view
 Main page with example of calculated investment</br>
-<img src="https://github.com/user-attachments/assets/da26eb1d-64ee-447f-8c21-fc7bde4f8462">
+<img src="https://github.com/user-attachments/assets/da26eb1d-64ee-447f-8c21-fc7bde4f8462"> </br>
 
+Default page view immediately after turning on the application: </br>
+<img src="https://github.com/user-attachments/assets/849526e9-685f-4b41-bbcb-56a18e200e90"></br>
+
+Short demo:</br>
+<img src="https://github.com/user-attachments/assets/136bfdc7-ee6c-438a-a594-89c557b8cc62">
 ## Sources
 This project is based on a project from the <b>React - The Complete Guide 2024 (incl. Next.js, Redux)</b> course from Udemy.com
 
